@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(description="start simulation script on/off")
 parser.add_argument('--start', type= int,default=1,help="start the ns-3 simulation script 0/1, default=1")
 parser.add_argument('--total_episodes', type=int ,default=100, help="the total episodes number  default= 100 episodes")
 parser.add_argument('--total_steps', type=int, default=300, help="total steps number in each episode, default= 300 steps")
-parser.add_argument('--agent_name',type="str",default="Dueling DDQN"
+parser.add_argument('--agent_name',type=str,default="Dueling DDQN"
                     ,help="choose the DRL agent that will give decisions for the simulation, "
                      "DRL agents: Dueling DDQN | Dueling DDQN-MLPS | DDQN, default= Dueling DDQN")
 
