@@ -61,9 +61,9 @@ git clone https://github.com/Abdelkader-gnichi/network-routing-optimization-base
 ```cmake
 build_lib_example(
   NAME network-routing-optimization-based-on-DRL-Agents-decisions-in-remote-rural-areas
-  SOURCE_FILES qos/sim.cc
-               qos/qos-controller.cc
-               qos/mygym.cc
+  SOURCE_FILES network-routing-optimization-based-on-DRL-Agents-decisions-in-remote-rural-areas/sim.cc
+               network-routing-optimization-based-on-DRL-Agents-decisions-in-remote-rural-areas/qos-controller.cc
+               network-routing-optimization-based-on-DRL-Agents-decisions-in-remote-rural-areas/mygym.cc
   LIBRARIES_TO_LINK
     ${libcore}
     ${libapplications}
